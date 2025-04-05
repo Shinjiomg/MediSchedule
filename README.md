@@ -40,6 +40,6 @@ Se utiliza una metodología ágil basada en tableros con historias de usuario. L
 
 ## 📚 Referencias
 
-Las referencias bibliográficas están citadas dentro del documento principal en formato APA 7.
+Las referencias bibliográficas están citadas dentro del documento principal.
 
 ---
