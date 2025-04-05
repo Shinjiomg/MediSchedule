@@ -8,7 +8,7 @@ El proyecto propone la implementación de un sistema digital que permita gestion
 
 ## 📄 Contenido del repositorio
 
-- `actividad-2.pdf`: Documento del proyecto que incluye:
+- `actividad 2.pdf`: Documento del proyecto que incluye:
     - Levantamiento de la Información (Definir métodos-técnicas y herramientas análisis de resultados y conclusiones)
     - Contextualización de la Necesidad
     - Descripción del problema.
