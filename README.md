@@ -74,8 +74,9 @@ Este proyecto se encuentra actualmente en su **fase de formulación** y document
 
 Se utiliza una metodología ágil basada en tableros con historias de usuario. Las tareas se organizan en sprints cortos para facilitar la planificación, seguimiento y entrega incremental de resultados.
 
-🔗 **Tablero del proyecto**: [Enlace al tablero ágil (Trello, Notion, etc.)]
-🔗**Prototipo desplegado en Netlify** (https://transcendent-macaron-b9929f.netlify.app/)
+🔗 **Tablero del proyecto**: https://planner.cloud.microsoft/webui/plan/i3_NkglISkSV7O4DRFtuomQAHJnv/view/board?tid=ba5b0a4d-6c68-4ac3-9d6e-c5b5a12a9d69
+
+🔗**Prototipo desplegado en Netlify** https://transcendent-macaron-b9929f.netlify.app/
 
 ## 👥 Equipo de trabajo
 
