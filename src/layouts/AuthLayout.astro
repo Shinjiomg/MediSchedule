@@ -1,0 +1,20 @@
+---
+import "../styles/global.css";
+// Layout base para autenticación
+---
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MediSchedule | Sistema de Agendamiento Médico</title>
+    <meta name="description" content="Sistema digital para agendar citas médicas y gestionar tu historial clínico de forma segura y sencilla." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen flex">
+    <div class="w-1/2 bg-blue-500 flex flex-col justify-center items-center text-white p-12">
+      <slot name="info" />
+    </div>
+    <div class="w-1/2 flex flex-col justify-center items-center bg-white p-12">
+      <slot />
+    </div>
+  </body>
+</html> 

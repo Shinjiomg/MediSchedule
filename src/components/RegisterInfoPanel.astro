@@ -1,0 +1,29 @@
+---
+// Panel informativo para la página de registro
+---
+<div class="flex flex-col items-center text-center gap-8 w-full max-w-md mx-auto py-16 animate-fade-in">
+  <div class="flex flex-col items-center gap-4">
+    <div class="bg-white rounded-full p-4 mb-2 flex items-center justify-center shadow-lg animate-fade-in-up">
+      <!-- Icono Tabler: calendario -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="16" rx="2" /><path d="M16 3v4M8 3v4M4 11h16" /></svg>
+    </div>
+    <h1 class="text-3xl font-bold text-white animate-fade-in-up">Únete a MediSchedule</h1>
+    <p class="text-lg font-medium text-white opacity-90 animate-fade-in-up max-w-xs">Crea tu cuenta para agendar citas y gestionar tu salud fácilmente.</p>
+  </div>
+  <div class="flex flex-col gap-4 w-full mt-4">
+    <div class="bg-blue-400 bg-opacity-90 rounded-lg p-4 flex flex-col items-start shadow-md">
+      <h2 class="font-semibold text-lg text-white mb-1">Registro simplificado</h2>
+      <p class="text-sm text-white opacity-90">Nuestro proceso de registro es simple y seguro.</p>
+    </div>
+    <div class="bg-blue-400 bg-opacity-90 rounded-lg p-4 flex flex-col items-start shadow-md">
+      <h2 class="font-semibold text-lg text-white mb-1">Acceso inmediato</h2>
+      <p class="text-sm text-white opacity-90">Accede a todos los servicios de salud al registrarte.</p>
+    </div>
+  </div>
+  <style>
+    .animate-fade-in { animation: fadeIn 1s ease; }
+    .animate-fade-in-up { animation: fadeInUp 1s ease; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</div> 

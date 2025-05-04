@@ -1,0 +1,9 @@
+---
+import AuthLayout from '../layouts/AuthLayout.astro';
+import RegisterInfoPanel from '../components/RegisterInfoPanel.astro';
+import RegisterForm from '../components/RegisterForm';
+---
+<AuthLayout>
+  <RegisterInfoPanel slot="info" />
+  <RegisterForm client:load />
+</AuthLayout> 

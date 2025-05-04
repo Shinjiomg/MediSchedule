@@ -1,0 +1,11 @@
+---
+import AuthLayout from '../layouts/AuthLayout.astro';
+import AuthInfoPanel from '../components/AuthInfoPanel.astro';
+import RecoverPasswordForm from '../components/RecoverPasswordForm';
+import { Toaster } from 'solid-toast';
+---
+<AuthLayout>
+  <AuthInfoPanel slot="info" />
+  <RecoverPasswordForm client:load />
+  <Toaster position="bottom-right" client:load />
+</AuthLayout> 

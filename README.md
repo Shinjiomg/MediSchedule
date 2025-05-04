@@ -1,6 +1,48 @@
 # Sistema de Gestión de Citas Médicas
 
-Este repositorio contiene la documentación del proyecto **“Sistema de Gestión de Citas Médicas para un Consultorio Independiente”**, desarrollado como parte de la materia "Proyecto de Software".
+## ⚙️ Requisitos previos
+
+Antes de instalar este proyecto, asegúrate de tener instalado en tu sistema:
+- [Node.js](https://nodejs.org/) (recomendado v18 o superior)
+- [npm](https://www.npmjs.com/) (incluido con Node.js) **o** [Yarn](https://yarnpkg.com/)
+
+## 🚀 Instalación y Ejecución
+
+1. **Clona el repositorio:**
+2. **Instala las dependencias:**
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
+3. **Ejecuta el proyecto en modo desarrollo:**
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+4. **Abre en tu navegador:**
+   [http://localhost:4321](http://localhost:4321) (o el puerto que indique la terminal)
+
+---
+
+## Avance del Proyecto
+
+Actualmente implementado:
+- **Pantalla de Login**: formulario moderno, validaciones, feedback visual, demo de credenciales, enlaces y diseño responsivo.
+- **Pantalla de Registro**: formulario multi-paso, validaciones visuales, animaciones, loading, feedback con toast, campos adaptados a Colombia y experiencia de usuario profesional.
+- **Recuperación de Contraseña**: formulario con validación de email, loading, feedback visual y toast de éxito.
+- **Toasts**: notificaciones visuales usando [Solid Toast](https://www.solid-toast.com/).
+- **Transiciones y animaciones**: experiencia visual fluida y moderna.
+
+## Herramientas y Lenguajes Usados
+- **Astro**: framework principal para SSR y estructura de páginas.
+- **SolidJS**: islands reactivas para formularios y lógica interactiva.
+- **TailwindCSS**: estilos modernos, responsivos y utilitarios.
+- **TypeScript**: tipado estático y robustez en los componentes.
+- **Solid Toast**: notificaciones visuales y feedback al usuario.
+
+Este repositorio contiene la documentación del proyecto **"Sistema de Gestión de Citas Médicas para un Consultorio Independiente"**, desarrollado como parte de la materia "Proyecto de Software".
 
 ## 📝 Descripción del proyecto
 
@@ -33,6 +75,7 @@ Este proyecto se encuentra actualmente en su **fase de formulación** y document
 Se utiliza una metodología ágil basada en tableros con historias de usuario. Las tareas se organizan en sprints cortos para facilitar la planificación, seguimiento y entrega incremental de resultados.
 
 🔗 **Tablero del proyecto**: [Enlace al tablero ágil (Trello, Notion, etc.)]
+🔗**Prototipo desplegado en Netlify** (https://transcendent-macaron-b9929f.netlify.app/)
 
 ## 👥 Equipo de trabajo
 
@@ -41,5 +84,3 @@ Se utiliza una metodología ágil basada en tableros con historias de usuario. L
 ## 📚 Referencias
 
 Las referencias bibliográficas están citadas dentro del documento principal.
-
----

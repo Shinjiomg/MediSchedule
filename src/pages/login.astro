@@ -1,0 +1,13 @@
+---
+import AuthLayout from '../layouts/AuthLayout.astro';
+import AuthInfoPanel from '../components/AuthInfoPanel.astro';
+import LoginForm from '../components/LoginForm.astro';
+import { Toaster } from 'solid-toast';
+import LoginToast from '../components/LoginToast';
+---
+<AuthLayout>
+  <AuthInfoPanel slot="info" />
+  <LoginForm />
+  <Toaster position="bottom-right" client:load />
+  <LoginToast client:load />
+</AuthLayout> 

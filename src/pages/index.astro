@@ -1,0 +1,16 @@
+---
+import "../styles/global.css";
+Astro.redirect('/login');
+---
+
+<html lang="es">
+  <head>
+    <meta http-equiv="refresh" content="0; url=/login" />
+    <script>
+      window.location.href = "/login";
+    </script>
+  </head>
+  <body>
+    <p class="text-center mt-10 text-lg">Redirigiendo a la página de inicio de sesión...</p>
+  </body>
+</html>
